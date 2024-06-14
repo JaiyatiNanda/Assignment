@@ -1,0 +1,6 @@
+#Output Formulae : Salary = basic_salary + HRA + ( 2 x TA ) + ( 50% x basic_salary )
+basic_salary=float(input("enter basic salary"))
+hra=float(input("enter hra"))
+ta=float(input("enter ta"))
+salary= basic_salary + hra + ( 2*ta ) + ( 0.5*basic_salary)
+print(salary)
